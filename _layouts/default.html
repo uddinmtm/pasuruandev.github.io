@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="name" content="Pasuruan Dev - Komunitas Developer Pasuruan">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="PasuruanDev">
+    <meta name="description" content="Pasuruan Developer Community adalah komunitas para pegiat IT di Pasuruan">
+    <title>{{page.title}}</title>
+
+    <link href="/assets/css/icon.css" rel="stylesheet">
+    <link type="text/css" rel="stylesheet" href="/assets/css/materialize.min.css" media="screen,projection" />
+    <link type="text/css" rel="stylesheet" href="/assets/css/style.css" media="screen,projection" />
+    <link type="text/css" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/material-design-iconic-font/2.2.0/css/material-design-iconic-font.min.css"
+    />
+    <link rel="icon" href="/assets/images/logo.png">
+</head>
+
+<body class="grey lighten-4">
+    <!-- navbar -->
+    {% include navigation.html %}
+    <!-- end navbar -->
+
+    <!-- content section -->
+    {{ content }}
+    <!-- end content section -->
+
+    <div class="section"></div>
+
+    <!-- footer section -->
+    {% include footer.html %}
+    <!-- end footer section -->
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="/assets/js/materialize.min.js"></script>
+    <script type="text/javascript" src="/assets/js/script.js"></script>
+</body>
+
+</html>

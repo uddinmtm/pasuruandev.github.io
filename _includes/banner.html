@@ -1,0 +1,8 @@
+<div id="home" class="carousel carousel-slider center" data-indicators="true">
+    {% for item in site.data.banner %}
+    <div class="carousel-item white-text banner-slider" style="background-image: url('{{ item.image }}');">
+        <h1>{{ item.title }}</h1>
+        <h5 class="white-text">{{ item.subtitle }}</h5>
+    </div>
+    {% endfor %}
+</div>

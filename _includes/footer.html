@@ -1,0 +1,25 @@
+<footer class="page-footer amber darken-2">
+    <div class="container">
+        <div class="row">
+            <div class="col s12 l6">
+                <h5 class="white-text">Pasuruan Dev</h5>
+                <p class="grey-text text-lighten-4">Komunitas Software Developer Pasuruan</p>
+            </div>
+            <div class="col s12 l4 offset-l2">
+                <h5 class="white-text">Find Us</h5>
+                <ul id="find-us">
+                    {% for item in site.data.socmed %}
+                    <li>
+                        <a class="grey-text text-lighten-3" href="{{ item.url }}">
+                            <i class="zmdi zmdi-{{ item.icon }}"></i>&nbsp; {{ item.name }}</a>
+                    </li>
+                    {% endfor %}
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer-copyright">
+        <div class="container">Copyright 2018 - Pasuruan Dev</div>
+    </div>
+</footer>
