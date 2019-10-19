@@ -29,6 +29,11 @@ Write your article content here...!
 If you want to add cover image, please add that image file to `assets/images/blog/` folders.
 And then write that path to header on article file in `cover:` value.
 
+Just that, then commit your changes and pull request.
+
+### How to update event/meetup section on this website?
+Just edit content of `_data/event.yml` file.
+
 That's easy right?
 
 Thanks
